@@ -63,6 +63,7 @@ function Footer() {
           </div>
           <small class='website-rights'>GTHR © 2021</small>
           <div class='social-icons'>
+          
             <Link
               class='social-icon-link facebook'
               to='/'
@@ -79,13 +80,15 @@ function Footer() {
             >
               <i class='fab fa-instagram' />
             </Link>
+            
             <Link
               class='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <a href = 'https://www.youtube.com/channel/UCkkH_rgdKLwXpKngtW7W7pg'>
+              <i class='fab fa-youtube' /> </a>
             </Link>
           </div>
         </div>
