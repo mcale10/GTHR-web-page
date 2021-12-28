@@ -16,29 +16,29 @@ function Cards() {
               path='/events'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/wec-1.jpg'
+              text='New championship after New Year'
+              label='WEC'
               path='/events'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/img-trialmount.jpg'
+              text='New/old circuit on GT7'
+              label='GT7'
               path='/events'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/christmas-newyear.jpg'
+              text='Merry Christmas nad a Happy New Year 2022 from GHTR community'
+              label='Holidays'
               path='/events'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/new-livery.jpg'
+              text='Check out new livery from Sagaris-05 on his GT profile'
+              label='Liveries'
               path='/sign-up'
             />
           </ul>
