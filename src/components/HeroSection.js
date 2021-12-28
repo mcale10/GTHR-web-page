@@ -8,15 +8,15 @@ function HeroSection() {
     <div className='hero-container'>
       <video src='/videos/gthr-intro.mp4' autoPlay loop muted />
       <h1>GRAN TURISMO HRVATSKA</h1>
-      <p>What are you waiting for?</p>
+      <p>Welcome to our official page</p>
       <div className='hero-btns'>
-        <Button
+        {/*<Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
           GET STARTED
-        </Button>
+        </Button>*/}
         <Button
           className='btns'
           buttonStyle='btn--primary'
