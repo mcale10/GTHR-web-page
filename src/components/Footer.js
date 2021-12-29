@@ -47,8 +47,12 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
+            <a href = 'https://web.facebook.com/groups/522596101906073' target='_blank' rel="noopener noreferrer">
+                Facebook
+            </a>
+            <a href = 'https://www.youtube.com/channel/UCkkH_rgdKLwXpKngtW7W7pg' target='_blank' rel="noopener noreferrer">
+                Youtube
+            </a>
           </div>
         </div>
       </div>

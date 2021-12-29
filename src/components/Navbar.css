@@ -35,7 +35,7 @@
 }
 
 img {
-    margin-left: 0.5rem;
+    margin-left: 0.8rem;
     font-size: 1.8rem;
 }
 
@@ -115,9 +115,8 @@ img {
     }
     .navbar-logo {
         position: absolute;
-        top: 0;
+        margin-top: 10px;
         left: 0;
-        transform: translate(25%, 50%);
     }
     .menu-icon {
         display: block;
