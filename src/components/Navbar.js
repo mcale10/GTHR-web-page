@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
+//import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  //const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const showButton = () => {
+  /*const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
     } else {
@@ -22,7 +22,7 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener('resize', showButton);*/
 
   return (
     <>
