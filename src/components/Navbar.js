@@ -16,13 +16,13 @@ function Navbar() {
     } else {
       setButton(true);
     }
-  };
+  };*/
 
   useEffect(() => {
-    showButton();
+    //showButton();
   }, []);
 
-  window.addEventListener('resize', showButton);*/
+  //window.addEventListener('resize', showButton);
 
   return (
     <>
