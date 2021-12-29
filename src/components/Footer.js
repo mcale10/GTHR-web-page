@@ -55,11 +55,9 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            {/*<Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
-                </Link>*/}
-            <img src="/images/logo.png" alt="GTHR Logo"></img>
+            <Link to='/' className='social-logo'>
+              <img src="/images/logo.png" alt="GTHR Logo"/>
+            </Link>
           </div>
           <small class='website-rights'>GTHR © 2021</small>
           <div class='social-icons'>
@@ -70,7 +68,8 @@ function Footer() {
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <a href = 'https://web.facebook.com/groups/522596101906073' target='_blank' rel="noopener noreferrer">
+              <i class='fab fa-facebook-f' /> </a>
             </Link>
             <Link
               class='social-icon-link instagram'
@@ -87,7 +86,7 @@ function Footer() {
               target='_blank'
               aria-label='Youtube'
             >
-              <a href = 'https://www.youtube.com/channel/UCkkH_rgdKLwXpKngtW7W7pg'>
+              <a href = 'https://www.youtube.com/channel/UCkkH_rgdKLwXpKngtW7W7pg' target='_blank' rel="noopener noreferrer">
               <i class='fab fa-youtube' /> </a>
             </Link>
           </div>
