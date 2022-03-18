@@ -22,10 +22,10 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick=''
+          onClick= "window.location.href='https://www.youtube.com/watch?v=nigltCT2Gmw0'"
         >
         
-          WATCH INTRO <i className='far fa-play-circle' />
+          WATCH INTRO ON YOUTUBE <i className='far fa-play-circle' />
         </Button> 
       </div>
     </div>
