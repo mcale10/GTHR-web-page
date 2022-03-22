@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -10,23 +9,10 @@ function HeroSection() {
       <h1>GRAN TURISMO HRVATSKA</h1>
       <p>Welcome to our official page</p>
       <div className='hero-btns'>
-        {/*<Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          GET STARTED
-        </Button>*/}
-        
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick= "window.location.href='https://www.youtube.com/watch?v=nigltCT2Gmw0'"
-        >
-        
-          WATCH INTRO ON YOUTUBE <i className='far fa-play-circle' />
-        </Button> 
+        <a href="https://www.youtube.com/watch?v=nigltCT2Gmw" target="_blank" rel="noopener noreferrer">
+          <button className='btn'>WATCH INTRO ON YOUTUBE<i className='far fa-play-circle'/></button>
+        </a>
+
       </div>
     </div>
   );
